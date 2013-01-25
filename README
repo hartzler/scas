@@ -1,0 +1,13 @@
+scas is:
+* a simple content accessable storage system written in Go
+* used to store strings of bytes and access them by their sha1
+* journaled w/ immutable sstable-ish data files for reliable storage / access
+
+goals:
+* simple
+* reliable
+* reasonably performant
+
+inspired by cassandra and bdb in various ways...
+
+leveldb (http://code.google.com/p/leveldb-go/) might be more what you are looking for :)
